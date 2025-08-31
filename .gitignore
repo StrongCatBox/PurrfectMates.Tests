@@ -1,0 +1,57 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# App settings (si jamais utilisés pour tests)
+appsettings.json
+appsettings.*.json
+appsettings.Test.json
+# Test results
+TestResult*/
+*.VisualState.xml
+*.testlog
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+
+# Autres fichiers temporaires
+*.vsidx
+*.dbmdl
+*.bak
+*.swp
