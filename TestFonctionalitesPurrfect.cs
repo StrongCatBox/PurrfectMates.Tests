@@ -86,7 +86,7 @@ namespace PurrfectMates.Tests
                     nomUtilisateur = "Lucas",
                     prenomUtilisateur = "Josy",
                     emailUtilisateur = "josy@test.com",
-                    motDePasseUtilisateur = "MotDePasse123!",
+                    //motDePasseUtilisateur = "MotDePasse123!",
                     Role = Role.Proprietaire
                 });
             }
