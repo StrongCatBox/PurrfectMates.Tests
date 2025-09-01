@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PurrfectMates.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0319f708589dd4a5243cce3fa5d237a2efc6a24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60d1465f38e5a93517ba9a157eaa1d114622183a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PurrfectMates.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PurrfectMates.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
