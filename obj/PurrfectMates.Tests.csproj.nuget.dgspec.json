@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salam\\source\\repos\\PurrfectMates.Tests\\PurrfectMates.Tests.csproj": {}
+    "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Tests\\PurrfectMates.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salam\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj": {
+    "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salam\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj",
         "projectName": "PurrfectMates.Api",
-        "projectPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj",
-        "packagesPath": "C:\\Users\\salam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates.Api\\obj\\",
+        "projectPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj",
+        "packagesPath": "C:\\Users\\Jeina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\salam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jeina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\salam\\source\\repos\\PurrfectMates\\PurrfectMates.csproj": {
-                "projectPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates\\PurrfectMates.csproj"
+              "C:\\Users\\Jeina\\source\\repos\\PurrfectMates\\PurrfectMates.csproj": {
+                "projectPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates\\PurrfectMates.csproj"
               }
             }
           }
@@ -54,6 +54,28 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -82,20 +104,20 @@
         }
       }
     },
-    "C:\\Users\\salam\\source\\repos\\PurrfectMates.Tests\\PurrfectMates.Tests.csproj": {
+    "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Tests\\PurrfectMates.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salam\\source\\repos\\PurrfectMates.Tests\\PurrfectMates.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Tests\\PurrfectMates.Tests.csproj",
         "projectName": "PurrfectMates.Tests",
-        "projectPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates.Tests\\PurrfectMates.Tests.csproj",
-        "packagesPath": "C:\\Users\\salam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Tests\\PurrfectMates.Tests.csproj",
+        "packagesPath": "C:\\Users\\Jeina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\salam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jeina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,11 +132,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\salam\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj": {
-                "projectPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj"
+              "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj": {
+                "projectPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates.Api\\PurrfectMates.Api.csproj"
               },
-              "C:\\Users\\salam\\source\\repos\\PurrfectMates\\PurrfectMates.csproj": {
-                "projectPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates\\PurrfectMates.csproj"
+              "C:\\Users\\Jeina\\source\\repos\\PurrfectMates\\PurrfectMates.csproj": {
+                "projectPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates\\PurrfectMates.csproj"
               }
             }
           }
@@ -188,20 +210,20 @@
         }
       }
     },
-    "C:\\Users\\salam\\source\\repos\\PurrfectMates\\PurrfectMates.csproj": {
+    "C:\\Users\\Jeina\\source\\repos\\PurrfectMates\\PurrfectMates.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salam\\source\\repos\\PurrfectMates\\PurrfectMates.csproj",
+        "projectUniqueName": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates\\PurrfectMates.csproj",
         "projectName": "PurrfectMates",
-        "projectPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates\\PurrfectMates.csproj",
-        "packagesPath": "C:\\Users\\salam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salam\\source\\repos\\PurrfectMates\\obj\\",
+        "projectPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates\\PurrfectMates.csproj",
+        "packagesPath": "C:\\Users\\Jeina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jeina\\source\\repos\\PurrfectMates\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\salam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jeina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -233,22 +255,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.8, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
