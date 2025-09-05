@@ -279,6 +279,7 @@ namespace PurrfectMates.Tests
         public async System.Threading.Tasks.Task Delete_Should_Remove_Animal()
         {
             // Arrange : récupérer un utilisateur de test
+            // ici on initialise les objets et on definit la valeur des donées transmise a la methode testé
             var userId = _db.Utilisateurs.Select(u => u.IdUtilisateur).First();
 
             // Simuler un utilisateur connecté avec rôle "Proprietaire"
@@ -295,6 +296,7 @@ namespace PurrfectMates.Tests
             };
 
             // Act : créer un nouvel animal lié à ce user
+           // Ici on appelle la methode testé avec les parametres triés
             var created = await _controller.Create(new PurrfectMates.Api.Dtos.AnimalCreateDto
             {
                 nomAnimal = "Luna",
@@ -307,7 +309,7 @@ namespace PurrfectMates.Tests
             }, default);
 
             var id = ((created.Result as Microsoft.AspNetCore.Mvc.CreatedAtActionResult)!.Value as PurrfectMates.Api.Dtos.AnimalReadDto)!.IdAnimal;
-
+            // Assert permet de verifier que l'action de la methode testé se comporte comme prévu.
             // Supprimer l’animal
             var del = await _controller.Delete(id, default);
             Assert.That(del, Is.TypeOf<Microsoft.AspNetCore.Mvc.NoContentResult>());
